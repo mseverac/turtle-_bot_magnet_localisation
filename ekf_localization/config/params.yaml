@@ -1,0 +1,18 @@
+ekf_localization_node:
+  ros__parameters:
+    sigma_x: 4.0
+    sigma_y: 4.0
+    sigma_theta: 0.0698
+    sigma_x_measurement: 5.77
+    sigma_y_measurement: 2.8868
+    sigma_tuning: 0.1
+    mahalanobis_threshold: 2.4477 
+    initial_x: 0.0
+    initial_y: 0.0
+    initial_theta: 0.0
+    wheel_radius: 33.0
+    track_gauge: 283.0
+    magnet_spacing_x: 55
+    magnet_spacing_y: 55
+
+

@@ -1,0 +1,6 @@
+Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/ekf_localization -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/ekf_localization
+Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/ekf_localization -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/ekf_localization
+Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/ekf_localization
+Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/ekf_localization

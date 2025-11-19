@@ -1,0 +1,29 @@
+In file included from [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:329:140:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" passed 4 arguments, but takes just 2
+  329 | d by Mahalanobis (d=%.3f threshold=%.3f)", dMaha, mahalanobis_threshold_[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:701:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+  701 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+      | 
+[01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:[m[K In function ‘[01m[Kvoid measurement_callback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> > >::SharedPtr, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:329:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO_STREAM[m[K’ was not declared in this scope
+  329 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(node->get_logger(), "Measurement rejected by Mahalanobis (d=%.3f threshold=%.3f)", dMaha, mahalanobis_threshold_);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ekf_localization_node.dir/build.make:76: CMakeFiles/ekf_localization_node.dir/src/ekf_localization_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,43 @@
+[0.068s] Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_node[0m
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_node.dir/src/ekf_localization_node.cpp.o[0m
+[8.073s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.075s]                  from [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:2[m[K:
+[8.075s] [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:[m[K In function ‘[01m[Kvoid measurement_callback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr, rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> > >::SharedPtr, rclcpp::Node::SharedPtr)[m[K’:
+[8.075s] [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:330:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+[8.075s]   330 |         RCLCPP_INFO([01;31m[K...[m[K, "z=(%.3f,%.3f) Yhat=(%.3f,%.3f) innov=(%.3f,%.3f) S_diag=(%.6e,%.6e) dMaha=%.3f",
+[8.075s]       |                     [01;31m[K^~~[m[K
+[8.076s] [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:330:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.076s]   330 |         [01;31m[KRCLCPP_INFO[m[K(..., "z=(%.3f,%.3f) Yhat=(%.3f,%.3f) innov=(%.3f,%.3f) S_diag=(%.6e,%.6e) dMaha=%.3f",
+[8.076s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.076s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.077s]                  from [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:2[m[K:
+[8.077s] [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:330:9:[m[K [01;31m[Kerror: [m[Kexpected binary operator before ‘[01m[K)[m[K’ token
+[8.077s]   330 |         [01;31m[KRCLCPP_INFO[m[K(..., "z=(%.3f,%.3f) Yhat=(%.3f,%.3f) innov=(%.3f,%.3f) S_diag=(%.6e,%.6e) dMaha=%.3f",
+[8.078s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.078s] [01m[K/home/mathijs/turtle_bot/ekf_localization/src/ekf_localization_node.cpp:330:9:[m[K [01;31m[Kerror: [m[Kexpected binary operator before ‘[01m[K)[m[K’ token
+[8.078s]   330 |         [01;31m[KRCLCPP_INFO[m[K(..., "z=(%.3f,%.3f) Yhat=(%.3f,%.3f) innov=(%.3f,%.3f) S_diag=(%.6e,%.6e) dMaha=%.3f",
+[8.078s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[18.989s] gmake[2]: *** [CMakeFiles/ekf_localization_node.dir/build.make:76: CMakeFiles/ekf_localization_node.dir/src/ekf_localization_node.cpp.o] Error 1
+[18.994s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ekf_localization_node.dir/all] Error 2
+[18.995s] gmake: *** [Makefile:146: all] Error 2
+[18.997s] Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12

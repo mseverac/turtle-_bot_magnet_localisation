@@ -1,0 +1,4 @@
+source;share/measurement_node/local_setup.bash
+source;share/measurement_node/local_setup.dsv
+source;share/measurement_node/local_setup.sh
+source;share/measurement_node/local_setup.zsh

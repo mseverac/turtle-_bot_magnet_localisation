@@ -1,0 +1,440 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e272c745990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e272c7454e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e272c7454e0>>, mixin_verb=('build',))
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.137s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mathijs/turtle_bot'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(data_replay) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'data_replay' with type 'ros.ament_cmake' and name 'data_replay'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ekf_localization) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'ekf_localization' with type 'ros.ament_cmake' and name 'ekf_localization'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(measurement_node) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'measurement_node' with type 'ros.ament_cmake' and name 'measurement_node'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_recording_20251112_174222) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_simulation/sensor_simulation) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'sensor_simulation/sensor_simulation' with type 'ros.ament_cmake' and name 'sensor_simulation'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_visu) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_visu' with type 'ros.ament_python' and name 'test_visu'
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.178s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mathijs/turtle_bot/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 448 installed packages in /opt/ros/humble
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'data_replay' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'data_replay' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mathijs/turtle_bot/build/data_replay', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mathijs/turtle_bot/install/data_replay', 'merge_install': False, 'path': '/home/mathijs/turtle_bot/data_replay', 'symlink_install': True, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ekf_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'ekf_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mathijs/turtle_bot/build/ekf_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mathijs/turtle_bot/install/ekf_localization', 'merge_install': False, 'path': '/home/mathijs/turtle_bot/ekf_localization', 'symlink_install': True, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'measurement_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'measurement_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mathijs/turtle_bot/build/measurement_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mathijs/turtle_bot/install/measurement_node', 'merge_install': False, 'path': '/home/mathijs/turtle_bot/measurement_node', 'symlink_install': True, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'sensor_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mathijs/turtle_bot/build/sensor_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mathijs/turtle_bot/install/sensor_simulation', 'merge_install': False, 'path': '/home/mathijs/turtle_bot/sensor_simulation/sensor_simulation', 'symlink_install': True, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'test_visu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'test_visu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mathijs/turtle_bot/build/test_visu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mathijs/turtle_bot/install/test_visu', 'merge_install': False, 'path': '/home/mathijs/turtle_bot/src/test_visu', 'symlink_install': True, 'test_result_base': None}
+[0.236s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mathijs/turtle_bot/data_replay' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mathijs/turtle_bot/data_replay'
+[0.239s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mathijs/turtle_bot/ekf_localization' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mathijs/turtle_bot/ekf_localization'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mathijs/turtle_bot/measurement_node' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mathijs/turtle_bot/measurement_node'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mathijs/turtle_bot/sensor_simulation/sensor_simulation' with build type 'ament_cmake'
+[0.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mathijs/turtle_bot/sensor_simulation/sensor_simulation'
+[0.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mathijs/turtle_bot/src/test_visu' with build type 'ament_python'
+[0.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_visu', 'ament_prefix_path')
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/hook/ament_prefix_path.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/hook/ament_prefix_path.dsv'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/hook/ament_prefix_path.sh'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/data_replay': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/data_replay -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/data_replay
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/ekf_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/ekf_localization
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/measurement_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/measurement_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/measurement_node
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/sensor_simulation/sensor_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/sensor_simulation
+[0.682s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mathijs/turtle_bot/src/test_visu'
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/sensor_simulation/sensor_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/sensor_simulation
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/sensor_simulation -- -j12 -l12
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/measurement_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/measurement_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/measurement_node
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/measurement_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/measurement_node -- -j12 -l12
+[1.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/data_replay' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/data_replay -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/data_replay
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/data_replay': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/data_replay -- -j12 -l12
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mathijs/turtle_bot/ekf_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mathijs/turtle_bot/install/ekf_localization
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/sensor_simulation -- -j12 -l12
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/sensor_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/sensor_simulation
+[1.701s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/mathijs/turtle_bot/install/test_visu/share/ament_index/resource_index/packages/test_visu
+[1.701s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/mathijs/turtle_bot/install/test_visu/share/test_visu/package.xml
+[1.702s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/mathijs/turtle_bot/install/test_visu/lib/test_visu/pose_recorder
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/test_visu': PYTHONPATH=/home/mathijs/turtle_bot/build/test_visu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mathijs/turtle_bot/build/test_visu/build --no-deps symlink_data --force
+[1.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_simulation)
+[1.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/sensor_simulation
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation' for CMake module files
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation' for CMake config files
+[1.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_simulation', 'cmake_prefix_path')
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.ps1'
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.dsv'
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.sh'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/lib'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/bin'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/lib/pkgconfig/sensor_simulation.pc'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/lib/python3.10/site-packages'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/bin'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.bash'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.zsh'
+[1.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/sensor_simulation/share/colcon-core/packages/sensor_simulation)
+[1.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_simulation)
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation' for CMake module files
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation' for CMake config files
+[1.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_simulation', 'cmake_prefix_path')
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/hook/cmake_prefix_path.sh'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/lib'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/bin'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/lib/pkgconfig/sensor_simulation.pc'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/lib/python3.10/site-packages'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/sensor_simulation/bin'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.dsv'
+[1.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.sh'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.bash'
+[1.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.zsh'
+[1.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/sensor_simulation/share/colcon-core/packages/sensor_simulation)
+[2.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/measurement_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/measurement_node -- -j12 -l12
+[2.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/measurement_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/measurement_node
+[2.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(measurement_node)
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node' for CMake module files
+[2.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/measurement_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/measurement_node
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node' for CMake config files
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('measurement_node', 'cmake_prefix_path')
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/hook/cmake_prefix_path.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/hook/cmake_prefix_path.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/hook/cmake_prefix_path.sh'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/lib'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/bin'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/lib/pkgconfig/measurement_node.pc'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/lib/python3.10/site-packages'
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/bin'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.ps1'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.sh'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.bash'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.zsh'
+[2.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/measurement_node/share/colcon-core/packages/measurement_node)
+[2.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(measurement_node)
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node' for CMake module files
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node' for CMake config files
+[2.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('measurement_node', 'cmake_prefix_path')
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/hook/cmake_prefix_path.ps1'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/hook/cmake_prefix_path.dsv'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/hook/cmake_prefix_path.sh'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/lib'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/bin'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/lib/pkgconfig/measurement_node.pc'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/lib/python3.10/site-packages'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/measurement_node/bin'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.ps1'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.sh'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.bash'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.zsh'
+[2.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/measurement_node/share/colcon-core/packages/measurement_node)
+[2.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_visu', 'pythonpath_develop')
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/build/test_visu/share/test_visu/hook/pythonpath_develop.ps1'
+[2.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/test_visu' returned '0': PYTHONPATH=/home/mathijs/turtle_bot/build/test_visu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mathijs/turtle_bot/build/test_visu/build --no-deps symlink_data --force
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/build/test_visu/share/test_visu/hook/pythonpath_develop.dsv'
+[2.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/build/test_visu/share/test_visu/hook/pythonpath_develop.sh'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu' for CMake module files
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu' for CMake config files
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu/lib'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu/bin'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu/lib/pkgconfig/test_visu.pc'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages'
+[2.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_visu', 'pythonpath')
+[2.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/hook/pythonpath.ps1'
+[2.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/hook/pythonpath.dsv'
+[2.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/hook/pythonpath.sh'
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/test_visu/bin'
+[2.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_visu)
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/package.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/package.dsv'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/package.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/package.bash'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/test_visu/share/test_visu/package.zsh'
+[2.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/test_visu/share/colcon-core/packages/test_visu)
+[3.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+[3.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/ekf_localization
+[3.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ekf_localization)
+[3.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/ekf_localization
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization' for CMake module files
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization' for CMake config files
+[3.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('ekf_localization', 'cmake_prefix_path')
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/hook/cmake_prefix_path.ps1'
+[3.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/hook/cmake_prefix_path.dsv'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/hook/cmake_prefix_path.sh'
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/lib'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/bin'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/lib/pkgconfig/ekf_localization.pc'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/lib/python3.10/site-packages'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/bin'
+[3.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.ps1'
+[3.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.dsv'
+[3.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.sh'
+[3.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.bash'
+[3.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.zsh'
+[3.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/ekf_localization/share/colcon-core/packages/ekf_localization)
+[3.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ekf_localization)
+[3.318s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization' for CMake module files
+[3.318s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization' for CMake config files
+[3.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('ekf_localization', 'cmake_prefix_path')
+[3.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/hook/cmake_prefix_path.ps1'
+[3.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/hook/cmake_prefix_path.dsv'
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/hook/cmake_prefix_path.sh'
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/lib'
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/bin'
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/lib/pkgconfig/ekf_localization.pc'
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/lib/python3.10/site-packages'
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/ekf_localization/bin'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.ps1'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.dsv'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.sh'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.bash'
+[3.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.zsh'
+[3.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/ekf_localization/share/colcon-core/packages/ekf_localization)
+[6.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/data_replay' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/data_replay -- -j12 -l12
+[7.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mathijs/turtle_bot/build/data_replay': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/data_replay
+[7.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_replay)
+[7.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mathijs/turtle_bot/build/data_replay' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/data_replay
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay' for CMake module files
+[7.197s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay' for CMake config files
+[7.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_replay', 'cmake_prefix_path')
+[7.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/hook/cmake_prefix_path.ps1'
+[7.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/hook/cmake_prefix_path.dsv'
+[7.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/hook/cmake_prefix_path.sh'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/lib'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/bin'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/lib/pkgconfig/data_replay.pc'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/lib/python3.10/site-packages'
+[7.201s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/bin'
+[7.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.ps1'
+[7.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.dsv'
+[7.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.sh'
+[7.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.bash'
+[7.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.zsh'
+[7.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/data_replay/share/colcon-core/packages/data_replay)
+[7.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_replay)
+[7.203s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay' for CMake module files
+[7.204s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay' for CMake config files
+[7.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_replay', 'cmake_prefix_path')
+[7.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/hook/cmake_prefix_path.ps1'
+[7.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/hook/cmake_prefix_path.dsv'
+[7.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/hook/cmake_prefix_path.sh'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/lib'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/bin'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/lib/pkgconfig/data_replay.pc'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/lib/python3.10/site-packages'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/mathijs/turtle_bot/install/data_replay/bin'
+[7.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.ps1'
+[7.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.dsv'
+[7.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.sh'
+[7.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.bash'
+[7.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.zsh'
+[7.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mathijs/turtle_bot/install/data_replay/share/colcon-core/packages/data_replay)
+[7.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.210s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.215s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.226s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mathijs/turtle_bot/install/local_setup.ps1'
+[7.227s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mathijs/turtle_bot/install/_local_setup_util_ps1.py'
+[7.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mathijs/turtle_bot/install/setup.ps1'
+[7.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mathijs/turtle_bot/install/local_setup.sh'
+[7.231s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mathijs/turtle_bot/install/_local_setup_util_sh.py'
+[7.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mathijs/turtle_bot/install/setup.sh'
+[7.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mathijs/turtle_bot/install/local_setup.bash'
+[7.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mathijs/turtle_bot/install/setup.bash'
+[7.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mathijs/turtle_bot/install/local_setup.zsh'
+[7.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mathijs/turtle_bot/install/setup.zsh'

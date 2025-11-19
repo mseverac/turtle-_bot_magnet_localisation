@@ -1,0 +1,28 @@
+[0.067s] Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+[0.666s] [35m[1mConsolidate compiler generated dependencies of target ekf_localization_node[0m
+[0.666s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_localization_node.dir/src/ekf_localization_node.cpp.o[0m
+[30.287s] [100%] [32m[1mLinking CXX executable ekf_localization_node[0m
+[32.676s] [100%] Built target ekf_localization_node
+[32.701s] Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/ekf_localization -- -j12 -l12
+[32.702s] Invoking command in '/home/mathijs/turtle_bot/build/ekf_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/ekf_localization
+[32.719s] -- Install configuration: ""
+[32.721s] -- Execute custom install script
+[32.721s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/lib/ekf_localization/ekf_localization_node
+[32.723s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/launch/ekf_localization_launch.py
+[32.723s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/config/params.yaml
+[32.723s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ament_index/resource_index/package_run_dependencies/ekf_localization
+[32.724s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ament_index/resource_index/parent_prefix_path/ekf_localization
+[32.724s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/ament_prefix_path.sh
+[32.724s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/ament_prefix_path.dsv
+[32.724s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/path.sh
+[32.727s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/path.dsv
+[32.728s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.bash
+[32.728s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.sh
+[32.728s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.zsh
+[32.728s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.dsv
+[32.729s] -- Symlinking: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.dsv
+[32.751s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ament_index/resource_index/packages/ekf_localization
+[32.751s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/cmake/ekf_localizationConfig.cmake
+[32.753s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/cmake/ekf_localizationConfig-version.cmake
+[32.753s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.xml
+[32.759s] Invoked command in '/home/mathijs/turtle_bot/build/ekf_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/ekf_localization

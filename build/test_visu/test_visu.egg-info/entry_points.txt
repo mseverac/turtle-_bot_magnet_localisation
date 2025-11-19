@@ -1,0 +1,2 @@
+[console_scripts]
+pose_recorder = test_visu.pose_recorder:main

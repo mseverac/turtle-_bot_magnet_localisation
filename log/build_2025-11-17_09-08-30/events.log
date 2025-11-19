@@ -1,0 +1,468 @@
+[0.000000] (-) TimerEvent: {}
+[0.000701] (data_replay) JobQueued: {'identifier': 'data_replay', 'dependencies': OrderedDict()}
+[0.000802] (ekf_localization) JobQueued: {'identifier': 'ekf_localization', 'dependencies': OrderedDict()}
+[0.000842] (measurement_node) JobQueued: {'identifier': 'measurement_node', 'dependencies': OrderedDict()}
+[0.000876] (sensor_simulation) JobQueued: {'identifier': 'sensor_simulation', 'dependencies': OrderedDict()}
+[0.000909] (test_visu) JobQueued: {'identifier': 'test_visu', 'dependencies': OrderedDict()}
+[0.004860] (data_replay) JobStarted: {'identifier': 'data_replay'}
+[0.047216] (ekf_localization) JobStarted: {'identifier': 'ekf_localization'}
+[0.061059] (measurement_node) JobStarted: {'identifier': 'measurement_node'}
+[0.072555] (sensor_simulation) JobStarted: {'identifier': 'sensor_simulation'}
+[0.084205] (test_visu) JobStarted: {'identifier': 'test_visu'}
+[0.102789] (data_replay) JobProgress: {'identifier': 'data_replay', 'progress': 'cmake'}
+[0.102882] (-) TimerEvent: {}
+[0.103505] (data_replay) JobProgress: {'identifier': 'data_replay', 'progress': 'build'}
+[0.104769] (data_replay) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mathijs/turtle_bot/build/data_replay', '--', '-j12', '-l12'], 'cwd': '/home/mathijs/turtle_bot/build/data_replay', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/data_replay'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.112303] (ekf_localization) JobProgress: {'identifier': 'ekf_localization', 'progress': 'cmake'}
+[0.113554] (ekf_localization) JobProgress: {'identifier': 'ekf_localization', 'progress': 'build'}
+[0.114122] (ekf_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mathijs/turtle_bot/build/ekf_localization', '--', '-j12', '-l12'], 'cwd': '/home/mathijs/turtle_bot/build/ekf_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/ekf_localization'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.123364] (measurement_node) JobProgress: {'identifier': 'measurement_node', 'progress': 'cmake'}
+[0.123510] (measurement_node) JobProgress: {'identifier': 'measurement_node', 'progress': 'build'}
+[0.123552] (measurement_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mathijs/turtle_bot/build/measurement_node', '--', '-j12', '-l12'], 'cwd': '/home/mathijs/turtle_bot/build/measurement_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/measurement_node'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.129005] (sensor_simulation) JobProgress: {'identifier': 'sensor_simulation', 'progress': 'cmake'}
+[0.129133] (sensor_simulation) JobProgress: {'identifier': 'sensor_simulation', 'progress': 'build'}
+[0.129176] (sensor_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mathijs/turtle_bot/build/sensor_simulation', '--', '-j12', '-l12'], 'cwd': '/home/mathijs/turtle_bot/build/sensor_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/sensor_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.203199] (-) TimerEvent: {}
+[0.308839] (-) TimerEvent: {}
+[0.409285] (-) TimerEvent: {}
+[0.509778] (-) TimerEvent: {}
+[0.610941] (-) TimerEvent: {}
+[0.709832] (data_replay) StdoutLine: {'line': b'[100%] Built target data_replay\n'}
+[0.714007] (ekf_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ekf_localization_node\x1b[0m\n'}
+[0.714514] (-) TimerEvent: {}
+[0.714755] (ekf_localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_localization_node.dir/src/ekf_localization_node.cpp.o\x1b[0m\n'}
+[0.719299] (sensor_simulation) StdoutLine: {'line': b'[100%] Built target sensor_simulation_node\n'}
+[0.719790] (measurement_node) StdoutLine: {'line': b'[100%] Built target measurement_node\n'}
+[0.725334] (data_replay) CommandEnded: {'returncode': 0}
+[0.732210] (data_replay) JobProgress: {'identifier': 'data_replay', 'progress': 'install'}
+[0.753300] (data_replay) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mathijs/turtle_bot/build/data_replay'], 'cwd': '/home/mathijs/turtle_bot/build/data_replay', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/data_replay'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.761248] (sensor_simulation) CommandEnded: {'returncode': 0}
+[0.762107] (sensor_simulation) JobProgress: {'identifier': 'sensor_simulation', 'progress': 'install'}
+[0.762171] (sensor_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mathijs/turtle_bot/build/sensor_simulation'], 'cwd': '/home/mathijs/turtle_bot/build/sensor_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/sensor_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.767909] (measurement_node) CommandEnded: {'returncode': 0}
+[0.768809] (measurement_node) JobProgress: {'identifier': 'measurement_node', 'progress': 'install'}
+[0.768890] (measurement_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mathijs/turtle_bot/build/measurement_node'], 'cwd': '/home/mathijs/turtle_bot/build/measurement_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/measurement_node'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.779677] (data_replay) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.780559] (data_replay) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.780760] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/lib/data_replay/data_replay\n'}
+[0.780888] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/ament_index/resource_index/package_run_dependencies/data_replay\n'}
+[0.781000] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/ament_index/resource_index/parent_prefix_path/data_replay\n'}
+[0.781111] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/ament_prefix_path.sh\n'}
+[0.781245] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/ament_prefix_path.dsv\n'}
+[0.781355] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/path.sh\n'}
+[0.781466] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/path.dsv\n'}
+[0.781575] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.bash\n'}
+[0.781683] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.sh\n'}
+[0.781833] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.zsh\n'}
+[0.781941] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.dsv\n'}
+[0.782051] (data_replay) StdoutLine: {'line': b'-- Symlinking: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.dsv\n'}
+[0.784823] (sensor_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.786035] (sensor_simulation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.786811] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/lib/sensor_simulation/sensor_simulation_node\n'}
+[0.787355] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/ament_index/resource_index/package_run_dependencies/sensor_simulation\n'}
+[0.787909] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/ament_index/resource_index/parent_prefix_path/sensor_simulation\n'}
+[0.788359] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.sh\n'}
+[0.788759] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.dsv\n'}
+[0.789219] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/path.sh\n'}
+[0.789604] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/path.dsv\n'}
+[0.790030] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.bash\n'}
+[0.790343] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.sh\n'}
+[0.790619] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.zsh\n'}
+[0.790912] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.dsv\n'}
+[0.791128] (sensor_simulation) StdoutLine: {'line': b'-- Symlinking: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.dsv\n'}
+[0.796691] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/ament_index/resource_index/packages/data_replay\n'}
+[0.797063] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/cmake/data_replayConfig.cmake\n'}
+[0.797238] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/cmake/data_replayConfig-version.cmake\n'}
+[0.797436] (data_replay) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.xml\n'}
+[0.798787] (measurement_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.799146] (measurement_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.800327] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/lib/measurement_node/measurement_node\n'}
+[0.800555] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/package_run_dependencies/measurement_node\n'}
+[0.805816] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/parent_prefix_path/measurement_node\n'}
+[0.806145] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/ament_prefix_path.sh\n'}
+[0.806263] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/ament_prefix_path.dsv\n'}
+[0.806374] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/path.sh\n'}
+[0.806485] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/path.dsv\n'}
+[0.806594] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.bash\n'}
+[0.806700] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.sh\n'}
+[0.806838] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.zsh\n'}
+[0.806946] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.dsv\n'}
+[0.807054] (measurement_node) StdoutLine: {'line': b'-- Symlinking: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.dsv\n'}
+[0.808931] (data_replay) CommandEnded: {'returncode': 0}
+[0.815037] (-) TimerEvent: {}
+[0.828968] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/ament_index/resource_index/packages/sensor_simulation\n'}
+[0.829271] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig.cmake\n'}
+[0.829399] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig-version.cmake\n'}
+[0.829518] (sensor_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.xml\n'}
+[0.842691] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/packages/measurement_node\n'}
+[0.843048] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/cmake/measurement_nodeConfig.cmake\n'}
+[0.843251] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/cmake/measurement_nodeConfig-version.cmake\n'}
+[0.846545] (measurement_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.xml\n'}
+[0.867555] (data_replay) JobEnded: {'identifier': 'data_replay', 'rc': 0}
+[0.869964] (sensor_simulation) CommandEnded: {'returncode': 0}
+[0.900809] (sensor_simulation) JobEnded: {'identifier': 'sensor_simulation', 'rc': 0}
+[0.901898] (measurement_node) CommandEnded: {'returncode': 0}
+[0.915284] (-) TimerEvent: {}
+[0.932166] (measurement_node) JobEnded: {'identifier': 'measurement_node', 'rc': 0}
+[1.017807] (-) TimerEvent: {}
+[1.118282] (-) TimerEvent: {}
+[1.218908] (-) TimerEvent: {}
+[1.319398] (-) TimerEvent: {}
+[1.419948] (-) TimerEvent: {}
+[1.520390] (-) TimerEvent: {}
+[1.620810] (-) TimerEvent: {}
+[1.721263] (-) TimerEvent: {}
+[1.823215] (-) TimerEvent: {}
+[1.923892] (-) TimerEvent: {}
+[2.024543] (-) TimerEvent: {}
+[2.047175] (test_visu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mathijs/turtle_bot/build/test_visu/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mathijs/turtle_bot/build/test_visu', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mathijs', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mathijs', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'fr_FR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '948', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1123', 'BUNDLED_DEBUGPY_PATH': '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'ROS_LOG_DIR': '/tmp', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '108125', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mathijs', 'JOURNAL_STREAM': '8:12730', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mathijs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083', 'INVOCATION_ID': '1b607818fcea45c29aea1e262dec48d0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YJZXF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6db838edac.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'GZ_VERSION': 'garden', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mathijs/turtle_bot/build/test_visu', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/path/to/cuda', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mathijs/turtle_bot/build/test_visu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.126813] (-) TimerEvent: {}
+[2.227333] (-) TimerEvent: {}
+[2.327897] (-) TimerEvent: {}
+[2.430955] (-) TimerEvent: {}
+[2.531402] (-) TimerEvent: {}
+[2.631851] (-) TimerEvent: {}
+[2.732249] (-) TimerEvent: {}
+[2.776123] (test_visu) StdoutLine: {'line': b'running develop\n'}
+[2.832384] (-) TimerEvent: {}
+[2.933200] (-) TimerEvent: {}
+[3.034214] (-) TimerEvent: {}
+[3.137002] (-) TimerEvent: {}
+[3.237450] (-) TimerEvent: {}
+[3.316175] (test_visu) StdoutLine: {'line': b'running egg_info\n'}
+[3.337593] (-) TimerEvent: {}
+[3.355686] (test_visu) StdoutLine: {'line': b'writing test_visu.egg-info/PKG-INFO\n'}
+[3.357374] (test_visu) StdoutLine: {'line': b'writing dependency_links to test_visu.egg-info/dependency_links.txt\n'}
+[3.357756] (test_visu) StdoutLine: {'line': b'writing entry points to test_visu.egg-info/entry_points.txt\n'}
+[3.358325] (test_visu) StdoutLine: {'line': b'writing requirements to test_visu.egg-info/requires.txt\n'}
+[3.358589] (test_visu) StdoutLine: {'line': b'writing top-level names to test_visu.egg-info/top_level.txt\n'}
+[3.437846] (-) TimerEvent: {}
+[3.473865] (test_visu) StdoutLine: {'line': b"reading manifest file 'test_visu.egg-info/SOURCES.txt'\n"}
+[3.476896] (test_visu) StdoutLine: {'line': b"writing manifest file 'test_visu.egg-info/SOURCES.txt'\n"}
+[3.520534] (test_visu) StdoutLine: {'line': b'running build_ext\n'}
+[3.520992] (test_visu) StdoutLine: {'line': b'Creating /home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages/test-visu.egg-link (link to .)\n'}
+[3.522573] (test_visu) StdoutLine: {'line': b'Installing pose_recorder script to /home/mathijs/turtle_bot/install/test_visu/lib/test_visu\n'}
+[3.523261] (test_visu) StdoutLine: {'line': b'\n'}
+[3.523516] (test_visu) StdoutLine: {'line': b'Installed /home/mathijs/turtle_bot/build/test_visu\n'}
+[3.523730] (test_visu) StdoutLine: {'line': b'running symlink_data\n'}
+[3.537959] (-) TimerEvent: {}
+[3.638492] (-) TimerEvent: {}
+[3.653208] (test_visu) CommandEnded: {'returncode': 0}
+[3.672517] (test_visu) JobEnded: {'identifier': 'test_visu', 'rc': 0}
+[3.738620] (-) TimerEvent: {}
+[3.840812] (-) TimerEvent: {}
+[3.941244] (-) TimerEvent: {}
+[4.041743] (-) TimerEvent: {}
+[4.142316] (-) TimerEvent: {}
+[4.242751] (-) TimerEvent: {}
+[4.343169] (-) TimerEvent: {}
+[4.443640] (-) TimerEvent: {}
+[4.544144] (-) TimerEvent: {}
+[4.644768] (-) TimerEvent: {}
+[4.745342] (-) TimerEvent: {}
+[4.845783] (-) TimerEvent: {}
+[4.946198] (-) TimerEvent: {}
+[5.046650] (-) TimerEvent: {}
+[5.147108] (-) TimerEvent: {}
+[5.247561] (-) TimerEvent: {}
+[5.348177] (-) TimerEvent: {}
+[5.449834] (-) TimerEvent: {}
+[5.550277] (-) TimerEvent: {}
+[5.650782] (-) TimerEvent: {}
+[5.751270] (-) TimerEvent: {}
+[5.851761] (-) TimerEvent: {}
+[5.952803] (-) TimerEvent: {}
+[6.053219] (-) TimerEvent: {}
+[6.153747] (-) TimerEvent: {}
+[6.254229] (-) TimerEvent: {}
+[6.354696] (-) TimerEvent: {}
+[6.455383] (-) TimerEvent: {}
+[6.555823] (-) TimerEvent: {}
+[6.656448] (-) TimerEvent: {}
+[6.758167] (-) TimerEvent: {}
+[6.858631] (-) TimerEvent: {}
+[6.959124] (-) TimerEvent: {}
+[7.059607] (-) TimerEvent: {}
+[7.160049] (-) TimerEvent: {}
+[7.260521] (-) TimerEvent: {}
+[7.360993] (-) TimerEvent: {}
+[7.461424] (-) TimerEvent: {}
+[7.561823] (-) TimerEvent: {}
+[7.665005] (-) TimerEvent: {}
+[7.765464] (-) TimerEvent: {}
+[7.865950] (-) TimerEvent: {}
+[7.966546] (-) TimerEvent: {}
+[8.067231] (-) TimerEvent: {}
+[8.168949] (-) TimerEvent: {}
+[8.269837] (-) TimerEvent: {}
+[8.370281] (-) TimerEvent: {}
+[8.472112] (-) TimerEvent: {}
+[8.572582] (-) TimerEvent: {}
+[8.673032] (-) TimerEvent: {}
+[8.773473] (-) TimerEvent: {}
+[8.873962] (-) TimerEvent: {}
+[8.974422] (-) TimerEvent: {}
+[9.074898] (-) TimerEvent: {}
+[9.175365] (-) TimerEvent: {}
+[9.275817] (-) TimerEvent: {}
+[9.376472] (-) TimerEvent: {}
+[9.479026] (-) TimerEvent: {}
+[9.579517] (-) TimerEvent: {}
+[9.680004] (-) TimerEvent: {}
+[9.780451] (-) TimerEvent: {}
+[9.880919] (-) TimerEvent: {}
+[9.983624] (-) TimerEvent: {}
+[10.084117] (-) TimerEvent: {}
+[10.184590] (-) TimerEvent: {}
+[10.285054] (-) TimerEvent: {}
+[10.385503] (-) TimerEvent: {}
+[10.486013] (-) TimerEvent: {}
+[10.586492] (-) TimerEvent: {}
+[10.686980] (-) TimerEvent: {}
+[10.787414] (-) TimerEvent: {}
+[10.887899] (-) TimerEvent: {}
+[10.988367] (-) TimerEvent: {}
+[11.088823] (-) TimerEvent: {}
+[11.189245] (-) TimerEvent: {}
+[11.289687] (-) TimerEvent: {}
+[11.390173] (-) TimerEvent: {}
+[11.490747] (-) TimerEvent: {}
+[11.591475] (-) TimerEvent: {}
+[11.693630] (-) TimerEvent: {}
+[11.795818] (-) TimerEvent: {}
+[11.896269] (-) TimerEvent: {}
+[11.996825] (-) TimerEvent: {}
+[12.097296] (-) TimerEvent: {}
+[12.197798] (-) TimerEvent: {}
+[12.298306] (-) TimerEvent: {}
+[12.398768] (-) TimerEvent: {}
+[12.499217] (-) TimerEvent: {}
+[12.602916] (-) TimerEvent: {}
+[12.703405] (-) TimerEvent: {}
+[12.803875] (-) TimerEvent: {}
+[12.904349] (-) TimerEvent: {}
+[13.004814] (-) TimerEvent: {}
+[13.105264] (-) TimerEvent: {}
+[13.205717] (-) TimerEvent: {}
+[13.306149] (-) TimerEvent: {}
+[13.406572] (-) TimerEvent: {}
+[13.507002] (-) TimerEvent: {}
+[13.607421] (-) TimerEvent: {}
+[13.707871] (-) TimerEvent: {}
+[13.808306] (-) TimerEvent: {}
+[13.909419] (-) TimerEvent: {}
+[14.009895] (-) TimerEvent: {}
+[14.110669] (-) TimerEvent: {}
+[14.213067] (-) TimerEvent: {}
+[14.315121] (-) TimerEvent: {}
+[14.415607] (-) TimerEvent: {}
+[14.516052] (-) TimerEvent: {}
+[14.616492] (-) TimerEvent: {}
+[14.716954] (-) TimerEvent: {}
+[14.817399] (-) TimerEvent: {}
+[14.917815] (-) TimerEvent: {}
+[15.019005] (-) TimerEvent: {}
+[15.119680] (-) TimerEvent: {}
+[15.220641] (-) TimerEvent: {}
+[15.321426] (-) TimerEvent: {}
+[15.421876] (-) TimerEvent: {}
+[15.523584] (-) TimerEvent: {}
+[15.624588] (-) TimerEvent: {}
+[15.725065] (-) TimerEvent: {}
+[15.825470] (-) TimerEvent: {}
+[15.925948] (-) TimerEvent: {}
+[16.026438] (-) TimerEvent: {}
+[16.126943] (-) TimerEvent: {}
+[16.227663] (-) TimerEvent: {}
+[16.329154] (-) TimerEvent: {}
+[16.429632] (-) TimerEvent: {}
+[16.530057] (-) TimerEvent: {}
+[16.631818] (-) TimerEvent: {}
+[16.732294] (-) TimerEvent: {}
+[16.832797] (-) TimerEvent: {}
+[16.934820] (-) TimerEvent: {}
+[17.035270] (-) TimerEvent: {}
+[17.135778] (-) TimerEvent: {}
+[17.236233] (-) TimerEvent: {}
+[17.336698] (-) TimerEvent: {}
+[17.437195] (-) TimerEvent: {}
+[17.537674] (-) TimerEvent: {}
+[17.638166] (-) TimerEvent: {}
+[17.738621] (-) TimerEvent: {}
+[17.841204] (-) TimerEvent: {}
+[17.941667] (-) TimerEvent: {}
+[18.042152] (-) TimerEvent: {}
+[18.142628] (-) TimerEvent: {}
+[18.243080] (-) TimerEvent: {}
+[18.344178] (-) TimerEvent: {}
+[18.444916] (-) TimerEvent: {}
+[18.545532] (-) TimerEvent: {}
+[18.647185] (-) TimerEvent: {}
+[18.747648] (-) TimerEvent: {}
+[18.848131] (-) TimerEvent: {}
+[18.950216] (-) TimerEvent: {}
+[19.050671] (-) TimerEvent: {}
+[19.151146] (-) TimerEvent: {}
+[19.251613] (-) TimerEvent: {}
+[19.357827] (-) TimerEvent: {}
+[19.458254] (-) TimerEvent: {}
+[19.558679] (-) TimerEvent: {}
+[19.660343] (-) TimerEvent: {}
+[19.762109] (-) TimerEvent: {}
+[19.862531] (-) TimerEvent: {}
+[19.963138] (-) TimerEvent: {}
+[20.063604] (-) TimerEvent: {}
+[20.164114] (-) TimerEvent: {}
+[20.264566] (-) TimerEvent: {}
+[20.365059] (-) TimerEvent: {}
+[20.465510] (-) TimerEvent: {}
+[20.565974] (-) TimerEvent: {}
+[20.666422] (-) TimerEvent: {}
+[20.767222] (-) TimerEvent: {}
+[20.868949] (-) TimerEvent: {}
+[20.969377] (-) TimerEvent: {}
+[21.069820] (-) TimerEvent: {}
+[21.170259] (-) TimerEvent: {}
+[21.270679] (-) TimerEvent: {}
+[21.371123] (-) TimerEvent: {}
+[21.471549] (-) TimerEvent: {}
+[21.571994] (-) TimerEvent: {}
+[21.673112] (-) TimerEvent: {}
+[21.773554] (-) TimerEvent: {}
+[21.874010] (-) TimerEvent: {}
+[21.975104] (-) TimerEvent: {}
+[22.075539] (-) TimerEvent: {}
+[22.175988] (-) TimerEvent: {}
+[22.276428] (-) TimerEvent: {}
+[22.376992] (-) TimerEvent: {}
+[22.478286] (-) TimerEvent: {}
+[22.578753] (-) TimerEvent: {}
+[22.679171] (-) TimerEvent: {}
+[22.779820] (-) TimerEvent: {}
+[22.883827] (-) TimerEvent: {}
+[22.984245] (-) TimerEvent: {}
+[23.086826] (-) TimerEvent: {}
+[23.189821] (-) TimerEvent: {}
+[23.294050] (-) TimerEvent: {}
+[23.394518] (-) TimerEvent: {}
+[23.494978] (-) TimerEvent: {}
+[23.595458] (-) TimerEvent: {}
+[23.695999] (-) TimerEvent: {}
+[23.796476] (-) TimerEvent: {}
+[23.896921] (-) TimerEvent: {}
+[23.997473] (-) TimerEvent: {}
+[24.097892] (-) TimerEvent: {}
+[24.198328] (-) TimerEvent: {}
+[24.298782] (-) TimerEvent: {}
+[24.399196] (-) TimerEvent: {}
+[24.499645] (-) TimerEvent: {}
+[24.600218] (-) TimerEvent: {}
+[24.700967] (-) TimerEvent: {}
+[24.802134] (-) TimerEvent: {}
+[24.902574] (-) TimerEvent: {}
+[25.003138] (-) TimerEvent: {}
+[25.104820] (-) TimerEvent: {}
+[25.205277] (-) TimerEvent: {}
+[25.305760] (-) TimerEvent: {}
+[25.406219] (-) TimerEvent: {}
+[25.506694] (-) TimerEvent: {}
+[25.607508] (-) TimerEvent: {}
+[25.708948] (-) TimerEvent: {}
+[25.809386] (-) TimerEvent: {}
+[25.909847] (-) TimerEvent: {}
+[26.010321] (-) TimerEvent: {}
+[26.110825] (-) TimerEvent: {}
+[26.211651] (-) TimerEvent: {}
+[26.312578] (-) TimerEvent: {}
+[26.413323] (-) TimerEvent: {}
+[26.513778] (-) TimerEvent: {}
+[26.616129] (-) TimerEvent: {}
+[26.716575] (-) TimerEvent: {}
+[26.817025] (-) TimerEvent: {}
+[26.917488] (-) TimerEvent: {}
+[27.018034] (-) TimerEvent: {}
+[27.118583] (-) TimerEvent: {}
+[27.219019] (-) TimerEvent: {}
+[27.319439] (-) TimerEvent: {}
+[27.419930] (-) TimerEvent: {}
+[27.520425] (-) TimerEvent: {}
+[27.620885] (-) TimerEvent: {}
+[27.721553] (-) TimerEvent: {}
+[27.822320] (-) TimerEvent: {}
+[27.924018] (-) TimerEvent: {}
+[28.024473] (-) TimerEvent: {}
+[28.124939] (-) TimerEvent: {}
+[28.225383] (-) TimerEvent: {}
+[28.328050] (-) TimerEvent: {}
+[28.428669] (-) TimerEvent: {}
+[28.529343] (-) TimerEvent: {}
+[28.630531] (-) TimerEvent: {}
+[28.731055] (-) TimerEvent: {}
+[28.831495] (-) TimerEvent: {}
+[28.931982] (-) TimerEvent: {}
+[29.032730] (-) TimerEvent: {}
+[29.133235] (-) TimerEvent: {}
+[29.233883] (-) TimerEvent: {}
+[29.335990] (-) TimerEvent: {}
+[29.436426] (-) TimerEvent: {}
+[29.536877] (-) TimerEvent: {}
+[29.637357] (-) TimerEvent: {}
+[29.737822] (-) TimerEvent: {}
+[29.838271] (-) TimerEvent: {}
+[29.938753] (-) TimerEvent: {}
+[30.039332] (-) TimerEvent: {}
+[30.141832] (-) TimerEvent: {}
+[30.242273] (-) TimerEvent: {}
+[30.335576] (ekf_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_localization_node\x1b[0m\n'}
+[30.342411] (-) TimerEvent: {}
+[30.442843] (-) TimerEvent: {}
+[30.544888] (-) TimerEvent: {}
+[30.645370] (-) TimerEvent: {}
+[30.746043] (-) TimerEvent: {}
+[30.846850] (-) TimerEvent: {}
+[30.947379] (-) TimerEvent: {}
+[31.047912] (-) TimerEvent: {}
+[31.148390] (-) TimerEvent: {}
+[31.248892] (-) TimerEvent: {}
+[31.349546] (-) TimerEvent: {}
+[31.450073] (-) TimerEvent: {}
+[31.550774] (-) TimerEvent: {}
+[31.653034] (-) TimerEvent: {}
+[31.753516] (-) TimerEvent: {}
+[31.854031] (-) TimerEvent: {}
+[31.954524] (-) TimerEvent: {}
+[32.054970] (-) TimerEvent: {}
+[32.155406] (-) TimerEvent: {}
+[32.255826] (-) TimerEvent: {}
+[32.356269] (-) TimerEvent: {}
+[32.456736] (-) TimerEvent: {}
+[32.557163] (-) TimerEvent: {}
+[32.657609] (-) TimerEvent: {}
+[32.724480] (ekf_localization) StdoutLine: {'line': b'[100%] Built target ekf_localization_node\n'}
+[32.749206] (ekf_localization) CommandEnded: {'returncode': 0}
+[32.749996] (ekf_localization) JobProgress: {'identifier': 'ekf_localization', 'progress': 'install'}
+[32.750054] (ekf_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mathijs/turtle_bot/build/ekf_localization'], 'cwd': '/home/mathijs/turtle_bot/build/ekf_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mathijs'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mathijs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\e[1;34m\\]\\w\\[\\e[0m\\]$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '948'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1123'), ('BUNDLED_DEBUGPY_PATH', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('ROS_LOG_DIR', '/tmp'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '108125'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mathijs'), ('JOURNAL_STREAM', '8:12730'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mathijs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/mathijs/miniconda3/bin:/opt/ros/humble/bin:/home/mathijs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/mathijs/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/mathijs-IdeaPad-1-15ALC7:@/tmp/.ICE-unix/1083,unix/mathijs-IdeaPad-1-15ALC7:/tmp/.ICE-unix/1083'), ('INVOCATION_ID', '1b607818fcea45c29aea1e262dec48d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mathijs/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3453692e5b4b34fa.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/mathijs/.config/Code/User/workspaceStorage/c07517deac0f7bf5c846e85a3b8e0055/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJZXF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6db838edac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('GZ_VERSION', 'garden'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mathijs/turtle_bot/build/ekf_localization'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/path/to/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.757792] (-) TimerEvent: {}
+[32.767626] (ekf_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.768795] (ekf_localization) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[32.769590] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/lib/ekf_localization/ekf_localization_node\n'}
+[32.770760] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/launch/ekf_localization_launch.py\n'}
+[32.771136] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/config/params.yaml\n'}
+[32.771567] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ament_index/resource_index/package_run_dependencies/ekf_localization\n'}
+[32.771843] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ament_index/resource_index/parent_prefix_path/ekf_localization\n'}
+[32.772138] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/ament_prefix_path.sh\n'}
+[32.772428] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/ament_prefix_path.dsv\n'}
+[32.772750] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/path.sh\n'}
+[32.775644] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/environment/path.dsv\n'}
+[32.776006] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.bash\n'}
+[32.776173] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.sh\n'}
+[32.776416] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.zsh\n'}
+[32.776681] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/local_setup.dsv\n'}
+[32.776913] (ekf_localization) StdoutLine: {'line': b'-- Symlinking: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.dsv\n'}
+[32.798815] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ament_index/resource_index/packages/ekf_localization\n'}
+[32.799211] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/cmake/ekf_localizationConfig.cmake\n'}
+[32.800870] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/cmake/ekf_localizationConfig-version.cmake\n'}
+[32.801213] (ekf_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mathijs/turtle_bot/install/ekf_localization/share/ekf_localization/package.xml\n'}
+[32.806652] (ekf_localization) CommandEnded: {'returncode': 0}
+[32.836191] (ekf_localization) JobEnded: {'identifier': 'ekf_localization', 'rc': 0}
+[32.837601] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target measurement_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/measurement_node.dir/src/measurement_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable measurement_node[0m
+[100%] Built target measurement_node
+-- Install configuration: ""
+-- Installing: /home/mathijs/turtle_bot/install/measurement_node/lib/measurement_node/measurement_node
+-- Set runtime path of "/home/mathijs/turtle_bot/install/measurement_node/lib/measurement_node/measurement_node" to ""
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/package_run_dependencies/measurement_node
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/parent_prefix_path/measurement_node
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/path.sh
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/path.dsv
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.bash
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.sh
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.zsh
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.dsv
+-- Installing: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.dsv
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/packages/measurement_node
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/cmake/measurement_nodeConfig.cmake
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/cmake/measurement_nodeConfig-version.cmake
+-- Up-to-date: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.xml

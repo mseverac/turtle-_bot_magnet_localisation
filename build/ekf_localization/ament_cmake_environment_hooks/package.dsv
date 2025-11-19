@@ -1,0 +1,4 @@
+source;share/ekf_localization/local_setup.bash
+source;share/ekf_localization/local_setup.dsv
+source;share/ekf_localization/local_setup.sh
+source;share/ekf_localization/local_setup.zsh

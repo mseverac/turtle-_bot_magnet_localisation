@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/test_visu/test_visu.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_visu/test_visu.egg-info/dependency_links.txt
+writing entry points to ../../build/test_visu/test_visu.egg-info/entry_points.txt
+writing requirements to ../../build/test_visu/test_visu.egg-info/requires.txt
+writing top-level names to ../../build/test_visu/test_visu.egg-info/top_level.txt
+reading manifest file '../../build/test_visu/test_visu.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/test_visu/test_visu.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_visu/pose_recorder.py -> /home/mathijs/turtle_bot/build/test_visu/build/lib/test_visu
+copying test_visu/__init__.py -> /home/mathijs/turtle_bot/build/test_visu/build/lib/test_visu
+running install
+running install_lib
+copying /home/mathijs/turtle_bot/build/test_visu/build/lib/test_visu/pose_recorder.py -> /home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages/test_visu
+byte-compiling /home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages/test_visu/pose_recorder.py to pose_recorder.cpython-310.pyc
+running install_data
+copying resource/test_visu -> /home/mathijs/turtle_bot/install/test_visu/share/ament_index/resource_index/packages
+copying package.xml -> /home/mathijs/turtle_bot/install/test_visu/share/test_visu
+running install_egg_info
+removing '/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages/test_visu-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/test_visu/test_visu.egg-info to /home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages/test_visu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pose_recorder script to /home/mathijs/turtle_bot/install/test_visu/lib/test_visu
+writing list of installed files to '/home/mathijs/turtle_bot/build/test_visu/install.log'

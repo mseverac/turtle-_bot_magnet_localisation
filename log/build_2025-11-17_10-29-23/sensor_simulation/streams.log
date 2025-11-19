@@ -1,0 +1,23 @@
+[0.068s] Invoking command in '/home/mathijs/turtle_bot/build/sensor_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/sensor_simulation -- -j12 -l12
+[0.301s] [100%] Built target sensor_simulation_node
+[0.692s] Invoked command in '/home/mathijs/turtle_bot/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/sensor_simulation -- -j12 -l12
+[0.712s] Invoking command in '/home/mathijs/turtle_bot/build/sensor_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/sensor_simulation
+[0.741s] -- Install configuration: ""
+[0.741s] -- Execute custom install script
+[0.742s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/lib/sensor_simulation/sensor_simulation_node
+[0.742s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/ament_index/resource_index/package_run_dependencies/sensor_simulation
+[0.742s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/ament_index/resource_index/parent_prefix_path/sensor_simulation
+[0.742s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.sh
+[0.742s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/ament_prefix_path.dsv
+[0.742s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/path.sh
+[0.748s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/environment/path.dsv
+[0.748s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.bash
+[0.748s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.sh
+[0.748s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.zsh
+[0.767s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/local_setup.dsv
+[0.767s] -- Symlinking: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.dsv
+[0.779s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/ament_index/resource_index/packages/sensor_simulation
+[0.780s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig.cmake
+[0.785s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/cmake/sensor_simulationConfig-version.cmake
+[0.785s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/sensor_simulation/share/sensor_simulation/package.xml
+[0.792s] Invoked command in '/home/mathijs/turtle_bot/build/sensor_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/sensor_simulation
