@@ -1,54 +1,87 @@
-# turtle_bot_magnet_localisation
 
-Petit guide pour compiler et lancer les nœuds principaux du package.
+# 🐢 Turtle Bot – Magnet Localization
 
-## Prérequis
-- ROS 2 installé et sourcing du workspace (ex. `source /opt/ros/<distro>/setup.bash`).
-- colcon installé.
+Ce projet implémente une architecture ROS2 permettant la **localisation d’un TurtleBot** à l’aide d’un capteur magnétique, d’un **EKF** et de données rejouées depuis des fichiers.
 
-## Compilation
-Depuis la racine du workspace (ex. `~/turtle_bot`) :
+---
+
+## 🚀 Compilation du workspace
+
+Depuis la racine du workspace :
+
 ```bash
 ~/turtle_bot$ colcon build --symlink-install
 ```
-Sourcer le workspace après la build :
-```bash
-~/turtle_bot$ source install/setup.bash
-```
 
-## Lancer les nœuds
-1. Visualiser la trajectoire (après localisation) :
+---
+
+## 🎯 Visualiser la trajectoire après localisation
+
+Lance le nœud d’enregistrement/visualisation :
+
 ```bash
 ~/turtle_bot$ ros2 run test_visu pose_recorder
 ```
 
-2. Lancer le nœud de localisation (position de départ : (0,0,0)) :
+---
+
+## 📌 Lancer la localisation (EKF)
+
+La position initiale du robot est fixée à **(0, 0, 0)**.
+
 ```bash
 ~/turtle_bot$ ros2 run ekf_localization ekf_localization_node
 ```
 
-3. Lancer le nœud data_replay  
-    Important : lancer ce nœud depuis le dossier `data` :
+---
+
+## 🔁 Rejouer les données (data replay)
+
+> ⚠️ Ce nœud doit être lancé **depuis le dossier contenant les données**.
+
 ```bash
 ~/turtle_bot/data$ ros2 run data_replay data_replay
 ```
 
-## Procédure d'expérimentation
-1. Lancer le nœud `pose_recorder` pour la visualisation.
-2. Lancer le nœud de localisation (`ekf_localization_node`).
-3. Dans un autre terminal, lancer `data_replay` depuis `~/turtle_bot/data`.
-4. Avant de démarrer une nouvelle expérience :  
-    - revenir au terminal du nœud de recording (ou du launcher principal) et relancer le nœud de localisation pour réinitialiser la position de départ à (0,0,0).
+---
 
-## Remarques et conseils
-- Vérifier que les topics et les formats de message entre `data_replay`, `measurement_node` et l’EKF correspondent (types et fréquences).
-- Si vous rencontrez des incohérences, utilisez `ros2 topic echo` et `ros2 topic list` pour déboguer.
+## 🔄 Nouvelle expérience : réinitialisation
 
-## À faire (TODO)
-- Faire fonctionner l'architecture actuelle et bien la comprendre.
-- Refaire `data_replay` pour qu'il publie uniquement les données brutes du capteur (entier 0–255) au lieu du measurement déjà traité.
-- Adapter/implémenter `measurement_node` pour consommer les raw sensor data et produire les measurements attendus par l’EKF.
-- Vérifier que la fonction `ExtractMeasurement` fonctionne correctement dans `measurement_node` (elle fonctionne dans `data_replay` aujourd’hui mais pas forcément ailleurs).
-- Créer un launchfile pour démarrer ensemble l’EKF et le `measurement_node`.
+Avant de recommencer une expérience :
 
-Si tu veux, je peux te proposer un exemple de launchfile ROS 2 ou un template pour le nouveau `data_replay`.
+1. Arrêter le nœud de recording.
+2. Relancer le nœud de **ekf_localization_node** afin de **réinitialiser la position**.
+3. Relancer ensuite le **data replay**
+
+---
+
+## 📝 À faire
+
+### ✔️ Compréhension & fonctionnement
+
+* Faire fonctionner l’architecture actuelle.
+* Comprendre précisément le rôle de chaque nœud (replay, measurement, EKF, visualisation…).
+
+### 🔧 Nouveau data_replay
+
+* Implémenter une version de `data_replay` qui **ne publie plus de "measurement"**,
+  mais **uniquement les `rawsensor_data`**, soit la valeur brute entre **0 et 255**.
+
+### 🧠 Nouvelle architecture
+
+* Mettre en place une nouvelle architecture utilisant :
+
+  * le **nouveau data_replay**
+  * le **measurement_node** 
+  * l’**EKF**
+* Attention : la fonction `ExtractMeasurement` marche dans `data_replay`,
+  mais **pas forcément** dans `measurement_node`.
+  ➜ Il faut donc vérifier/adapter l’extraction.
+
+### 🚀 Launch file
+
+* Créer un launch file permettant de lancer **simultanément** :
+
+  * l’EKF
+  * le measurement_node
+
