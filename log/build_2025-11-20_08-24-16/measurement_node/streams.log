@@ -1,0 +1,23 @@
+[0.034s] Invoking command in '/home/mathijs/turtle_bot/build/measurement_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/measurement_node -- -j12 -l12
+[0.114s] [100%] Built target measurement_node
+[0.371s] Invoked command in '/home/mathijs/turtle_bot/build/measurement_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/measurement_node -- -j12 -l12
+[0.374s] Invoking command in '/home/mathijs/turtle_bot/build/measurement_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/measurement_node
+[0.385s] -- Install configuration: ""
+[0.385s] -- Execute custom install script
+[0.385s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/lib/measurement_node/measurement_node
+[0.385s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/package_run_dependencies/measurement_node
+[0.385s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/parent_prefix_path/measurement_node
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/ament_prefix_path.sh
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/ament_prefix_path.dsv
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/path.sh
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/environment/path.dsv
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.bash
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.sh
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.zsh
+[0.386s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/local_setup.dsv
+[0.386s] -- Symlinking: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.dsv
+[0.401s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/ament_index/resource_index/packages/measurement_node
+[0.401s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/cmake/measurement_nodeConfig.cmake
+[0.401s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/cmake/measurement_nodeConfig-version.cmake
+[0.401s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/measurement_node/share/measurement_node/package.xml
+[0.418s] Invoked command in '/home/mathijs/turtle_bot/build/measurement_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/measurement_node

@@ -45,17 +45,17 @@ inline double convert_wheel_angle_if_needed(double a) {
 
 void declare_and_get_parameters(rclcpp::Node::SharedPtr node) {
     // DEFAULTS are now in METERS and radians where relevant
-    node->declare_parameter<double>("sigma_x", 4.0);
-    node->declare_parameter<double>("sigma_y", 4.0);
+    node->declare_parameter<double>("sigma_x", 0.3/1000);
+    node->declare_parameter<double>("sigma_y", 0.3/1000);
     node->declare_parameter<double>("sigma_theta", 0.0698);
-    node->declare_parameter<double>("sigma_x_measurement", 0.015);
-    node->declare_parameter<double>("sigma_y_measurement", 0.005);
-    node->declare_parameter<double>("sigma_tuning", 0.1);
+    node->declare_parameter<double>("sigma_x_measurement", 5.77/1000);
+    node->declare_parameter<double>("sigma_y_measurement", 2.8868/1000);
+    node->declare_parameter<double>("sigma_tuning", 0.14);
     // Mahalanobis threshold (no scaling) - typical 95% -> 2.4477
     node->declare_parameter<double>("mahalanobis_threshold", 2.4477);
 
     node->declare_parameter<double>("initial_x", 0.0);
-    node->declare_parameter<double>("initial_y", 0.0);
+    node->declare_parameter<double>("initial_y", 0.0);  
     node->declare_parameter<double>("initial_theta", 0.0);
 
     // LENGTHS: declare in meters (provide meters in YAML), but keep heuristic for mm->m if someone wrote mm

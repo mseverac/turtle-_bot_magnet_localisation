@@ -306,7 +306,7 @@ class PoseRecorder(Node):
         if len(xs) > 0:
             ax.plot(xs, ys, '-o', markersize=3, linewidth=1, label='pose (EKF)', color='tab:blue')
         if len(xs_odom) > 0:
-            ax.plot(xs_odom, ys_odom, '-o', markersize=3, linewidth=1, color='red', label='odom (local)')
+            ax.plot(xs_odom, ys_odom, '-o', markersize=3, linewidth=1, color='red', label='odom (local)', alpha=0.6)
 
         ax.set_xlabel('x (m)')
         ax.set_ylabel('y (m)')

@@ -1,0 +1,17 @@
+[1.259s] Invoking command in '/home/mathijs/turtle_bot/build/test_visu': PYTHONPATH=/home/mathijs/turtle_bot/build/test_visu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mathijs/turtle_bot/build/test_visu/build --no-deps symlink_data
+[1.716s] running develop
+[2.025s] running egg_info
+[2.048s] writing test_visu.egg-info/PKG-INFO
+[2.050s] writing dependency_links to test_visu.egg-info/dependency_links.txt
+[2.050s] writing entry points to test_visu.egg-info/entry_points.txt
+[2.050s] writing requirements to test_visu.egg-info/requires.txt
+[2.050s] writing top-level names to test_visu.egg-info/top_level.txt
+[2.121s] reading manifest file 'test_visu.egg-info/SOURCES.txt'
+[2.123s] writing manifest file 'test_visu.egg-info/SOURCES.txt'
+[2.147s] running build_ext
+[2.148s] Creating /home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages/test-visu.egg-link (link to .)
+[2.149s] Installing pose_recorder script to /home/mathijs/turtle_bot/install/test_visu/lib/test_visu
+[2.149s] 
+[2.149s] Installed /home/mathijs/turtle_bot/build/test_visu
+[2.149s] running symlink_data
+[2.237s] Invoked command in '/home/mathijs/turtle_bot/build/test_visu' returned '0': PYTHONPATH=/home/mathijs/turtle_bot/build/test_visu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mathijs/turtle_bot/install/test_visu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mathijs/turtle_bot/build/test_visu/build --no-deps symlink_data

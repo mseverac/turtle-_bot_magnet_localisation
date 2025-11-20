@@ -1,0 +1,114 @@
+[0.050s] Invoking command in '/home/mathijs/turtle_bot/build/data_replay': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/data_replay -- -j12 -l12
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target data_replay[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/data_replay.dir/src/data_replay.cpp.o[0m
+[2.587s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[2.588s]    61 |     [01;31m[Kvector[m[K<double> time_data_;
+[2.588s]       |     [01;31m[K^~~~~~[m[K
+[2.588s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[2.589s]    62 |     [01;31m[Kvector[m[K<JointStateData> joint_states_;
+[2.589s]       |     [01;31m[K^~~~~~[m[K
+[2.598s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[2.598s]   158 |     [01;31m[Kvector[m[K<double> ExtractMeasurements(uint16_t rawSensorData, int nbReedSensors, bool magnetDetected)
+[2.599s]       |     [01;31m[K^~~~~~[m[K
+[2.622s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:[m[K In member function ‘[01m[Kvoid DataReplayNode::readExperimentData(const string&)[m[K’:
+[2.622s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_t[m[K’?
+[2.622s]    98 |             [01;31m[Ktime_data_[m[K.push_back(time);
+[2.622s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.623s]       |             [32m[Ktime_t[m[K
+[2.628s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:104:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state[m[K’?
+[2.629s]   104 |             [01;31m[Kjoint_states_[m[K.push_back(joint_state);
+[2.629s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.629s]       |             [32m[Kjoint_state[m[K
+[2.634s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:109:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state_pub_[m[K’?
+[2.634s]   109 |         if (![01;31m[Kjoint_states_[m[K.empty() && !time_data_.empty())
+[2.634s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[2.634s]       |              [32m[Kjoint_state_pub_[m[K
+[2.640s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:109:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_t[m[K’?
+[2.640s]   109 |         if (!joint_states_.empty() && ![01;31m[Ktime_data_[m[K.empty())
+[2.640s]       |                                        [01;31m[K^~~~~~~~~~[m[K
+[2.640s]       |                                        [32m[Ktime_t[m[K
+[2.647s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:[m[K In member function ‘[01m[Kvoid DataReplayNode::timerCallback()[m[K’:
+[2.647s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:124:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state_pub_[m[K’?
+[2.647s]   124 |         if (current_index_ >= [01;31m[Kjoint_states_[m[K.size())
+[2.647s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.647s]       |                               [32m[Kjoint_state_pub_[m[K
+[2.652s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:134:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_state_msg[m[K’?
+[2.653s]   134 |         joint_state_msg.position = {[01;31m[Kjoint_states_[m[K[current_index_].position_left, joint_states_[current_index_].position_right};
+[2.654s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.654s]       |                                     [32m[Kjoint_state_msg[m[K
+[2.654s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:134:126:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[2.654s]   134 |         joint_state_msg.position = {joint_states_[current_index_].position_left, joint_states_[current_index_].position_right[01;31m[K}[m[K;
+[2.654s]       |                                                                                                                              [01;31m[K^[m[K
+[2.654s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[2.655s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.655s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.655s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.655s]                  from [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:1[m[K:
+[2.656s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[2.656s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[2.656s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.656s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+[2.656s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[2.656s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.656s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[2.656s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.656s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.656s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.657s]                  from [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:1[m[K:
+[2.657s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[2.657s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.657s]       |       [01;36m[K^~~~~~~~[m[K
+[2.657s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >&&[m[K’
+[2.657s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.657s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[2.657s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>][m[K’
+[2.657s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[2.657s]       |       [01;36m[K^~~~~~~~[m[K
+[2.657s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<double>[m[K’
+[2.657s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[2.657s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.657s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+[2.658s]   138 |         [01;31m[Kvector[m[K<double> measures = ExtractMeasurements(raw_sensor_value, nb_reed_sensors_, magnet_detected_);
+[2.658s]       |         [01;31m[K^~~~~~[m[K
+[2.658s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:138:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.658s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[2.658s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.658s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.658s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.658s]                  from [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:1[m[K:
+[2.658s] [01m[K/usr/include/c++/11/bits/stl_vector.h:389:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+[2.658s]   389 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+[2.659s]       |           [01;36m[K^~~~~~[m[K
+[2.659s] In file included from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.659s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.659s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[2.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.659s]                  from [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:1[m[K:
+[2.659s] [01m[K/usr/include/c++/11/vector:86:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::vector[m[K’
+[2.659s]    86 |       using [01;36m[Kvector[m[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;
+[2.659s]       |             [01;36m[K^~~~~~[m[K
+[2.660s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:138:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[2.660s]   138 |         vector<[01;31m[Kdouble[m[K> measures = ExtractMeasurements(raw_sensor_value, nb_reed_sensors_, magnet_detected_);
+[2.660s]       |                [01;31m[K^~~~~~[m[K
+[2.660s] [01m[K/home/mathijs/turtle_bot/data_replay/src/data_replay.cpp:143:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmeasures[m[K’ was not declared in this scope
+[2.660s]   143 |         for (double m : [01;31m[Kmeasures[m[K)
+[2.660s]       |                         [01;31m[K^~~~~~~~[m[K
+[3.634s] gmake[2]: *** [CMakeFiles/data_replay.dir/build.make:76: CMakeFiles/data_replay.dir/src/data_replay.cpp.o] Error 1
+[3.635s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_replay.dir/all] Error 2
+[3.635s] gmake: *** [Makefile:146: all] Error 2
+[3.639s] Invoked command in '/home/mathijs/turtle_bot/build/data_replay' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/data_replay -- -j12 -l12

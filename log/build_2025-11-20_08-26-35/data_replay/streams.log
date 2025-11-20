@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/home/mathijs/turtle_bot/build/data_replay': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/data_replay -- -j12 -l12
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target data_replay[0m
+[0.140s] [ 50%] [32mBuilding CXX object CMakeFiles/data_replay.dir/src/data_replay.cpp.o[0m
+[4.946s] [100%] [32m[1mLinking CXX executable data_replay[0m
+[5.208s] [100%] Built target data_replay
+[5.226s] Invoked command in '/home/mathijs/turtle_bot/build/data_replay' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mathijs/turtle_bot/build/data_replay -- -j12 -l12
+[5.228s] Invoking command in '/home/mathijs/turtle_bot/build/data_replay': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/data_replay
+[5.237s] -- Install configuration: ""
+[5.237s] -- Execute custom install script
+[5.237s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/lib/data_replay/data_replay
+[5.238s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/ament_index/resource_index/package_run_dependencies/data_replay
+[5.238s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/ament_index/resource_index/parent_prefix_path/data_replay
+[5.238s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/ament_prefix_path.sh
+[5.238s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/ament_prefix_path.dsv
+[5.238s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/path.sh
+[5.239s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/environment/path.dsv
+[5.239s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.bash
+[5.239s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.sh
+[5.239s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.zsh
+[5.239s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/local_setup.dsv
+[5.239s] -- Symlinking: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.dsv
+[5.252s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/ament_index/resource_index/packages/data_replay
+[5.252s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/cmake/data_replayConfig.cmake
+[5.252s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/cmake/data_replayConfig-version.cmake
+[5.252s] -- Up-to-date symlink: /home/mathijs/turtle_bot/install/data_replay/share/data_replay/package.xml
+[5.255s] Invoked command in '/home/mathijs/turtle_bot/build/data_replay' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mathijs/turtle_bot/build/data_replay
